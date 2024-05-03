@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Rows, Three Columns Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Website Title</h1>
+    </header>
+
+    <div class="row">
+        <div class="column">
+            <h2>Column 1</h2>
+            <p>This is the content of the first column in the first row.</p>
+        </div>
+
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>This is the content of the second column in the first row.</p>
+        </div>
+
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>This is the content of the third column in the first row.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h2>Column 1</h2>
+            <p>This is the content of the first column in the second row.</p>
+        </div>
+
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>This is the content of the second column in the second row.</p>
+        </div>
+
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>This is the content of the third column in the second row.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
